@@ -3,7 +3,6 @@ body {
     margin: 0;
     margin-top:70px;
     padding: 0;
-    /* background-image:linear-gradient( to bottom, #00bfff, #64b9d5); */
     background-color: #2a9ac0;
     align-items: center;
     justify-content: center;
@@ -57,22 +56,24 @@ nav {
 
 .left-links{
     flex:1 1 200px;
+    color: azure;
  }
 
 .links {
     display: inline-block;
+    padding-left: 100px;
     text-align: center;
     padding: 14px;
-    color: rgb(0, 0, 0);
+    color: azure;
     text-decoration: none;
     font-size: 17px;
     font-weight: bolder;
 }
 .links:hover {
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid azure;
 }
 .selected{
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid azure;
 }
 
 /* form */
@@ -99,7 +100,7 @@ input[type=text], input[type=email], select, textarea {
     resize: vertical;
 }
 
-input[type=submit] {
+button{
     background-color: #04AA6D;
     color: white;
     padding: 12px 20px;
@@ -170,6 +171,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 .skill-name{
+    color: azure;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -211,6 +213,12 @@ input[type=submit]:hover {
     top: -16px;
     right: 0;
     transform: translateX(50%) rotate(45deg);
+}
+
+/* contact */
+.icon {
+    word-spacing: 10px;
+    font-size: 30px;
 }
 
 /* Slideshow container */

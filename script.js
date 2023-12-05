@@ -38,3 +38,16 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 3 seconds
 }
 
+function submitForm() {
+  var fname = document.getElementById("fname").value;
+  var lname = document.getElementById("lname").value;
+  var email = document.getElementById("e-mail").value;
+  var message = document.getElementById("message").value;
+
+  
+  var mailtoLink = "mailto:itunuanwo@gmail.com?subject=Message from " + fname + lname + "&body=" + message;
+
+  // Open the user's default email client with the mailto link
+  window.location.href = mailtoLink;
+}
+
