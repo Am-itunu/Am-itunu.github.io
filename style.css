@@ -19,10 +19,18 @@ ul {
     padding: 0;
     overflow: hidden;
  }
-
+ 
+.project-home{
+    border: 1px;
+    padding: 1em;
+    margin-top: 10%;
+    margin-bottom: 1em;
+    width: auto;
+}
 .project {
     border: 1px solid #ddd;
     padding: 1em;
+    margin-top: 100px;
     margin-bottom: 1em;
 }
 
@@ -104,6 +112,25 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #4588a0;
     
+}
+/* text */
+.intro{
+    font-size: larger;
+    color: #00bfff;
+    line-height: 1220pxpx;
+}
+.about{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xxx-large;
+    color: azure;
+    line-height: 12px;
+}
+.summary{
+    line-height: 25px;
+    word-spacing: 5px;
+    font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: azure;
 }
 
 /*skill bar*/
@@ -193,8 +220,10 @@ input[type=submit]:hover {
 img {vertical-align: middle;}
 
 .slideshow-container {
-    max-width: 300PX;
-    max-height: 300px;
+    width: 20%;
+    margin-right: 20px;
+    max-width: 200PX;
+    max-height: 200px;
     position: relative;
     margin: auto;
 }
@@ -226,7 +255,7 @@ img {vertical-align: middle;}
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    display: hidden;
     transition: background-color 0.6s ease;
 }
   
