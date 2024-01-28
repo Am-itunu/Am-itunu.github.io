@@ -164,7 +164,7 @@ input[type=submit]:hover {
 .about{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:xxx-large;
-    color: azure;
+    color: #00bfff;
     line-height: 12px;
 }
 .summary{
